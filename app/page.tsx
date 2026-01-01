@@ -1,6 +1,6 @@
-import About from "./components/about";
-import Main_Idea from "./components/Main_Idea";
-import ContactPage from "./contactus/page";
+import About from "./Home_Components/about";
+import Main_Idea from "./Home_Components/Main_Idea";
+import ContactPage from "./Home_contactus/page";
 
 export default function Home() {
   return (
