@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
+
+/* Global Styles */
 html,
 body {
-  background-color: #f7f7f7a0;
+  background-color: #f7f7f7a0; /* Light gray background for the entire app */
 }
 
 * {
