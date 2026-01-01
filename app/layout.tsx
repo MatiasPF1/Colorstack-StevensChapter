@@ -33,9 +33,8 @@ export default function RootLayout({ // Wrapping Layout Component
     <html lang="en">
       <body className={inter.className} suppressHydrationWarning> {/* Apply Google Font to Body(inter)*/}
 
-        <Navbar/>  {/*1st Part of the Website Layout*/}
-
-        {children}
+        <Navbar/>  {/*1st Component of the Website Layout*/}
+        {children} {/* Main Content of the Page, include: About, Main_Idea*/}
       </body>
     </html>
   );
