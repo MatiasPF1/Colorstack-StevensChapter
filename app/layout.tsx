@@ -1,7 +1,7 @@
 import type { Metadata } from "next";  
 import { Inter } from "next/font/google"; // Import For the Fonts 
 import "./globals.css"; // Global CSS import
-import Navbar from "./components/Navbar";
+import Navbar from "./Home_Components/Navbar";
 
 //1- Font Configuration For the Text
 
@@ -33,9 +33,8 @@ export default function RootLayout({ // Wrapping Layout Component
     <html lang="en">
       <body className={inter.className} suppressHydrationWarning> {/* Apply Google Font to Body(inter)*/}
 
-        <Navbar/>  {/*1st Part of the Website Layout*/}
-
-        {children}
+        <Navbar/>  {/*1st Component of the Website Layout*/}
+        {children} {/* Main Content of the Page(page.tsx)*/}
       </body>
     </html>
   );

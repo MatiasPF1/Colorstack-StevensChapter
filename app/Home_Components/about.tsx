@@ -1,9 +1,8 @@
 export default function About() {
   return (
-    <div className="flex justify-center items-center h-120"> {/* Container Div to center the content vertically and horizontally */}
-
+    /* Main Hook*/
+    <div className="flex flex-col justify-center items-center h-120"> {/* Container Div to center the content vertically and horizontally */}
       <h1 className="text-center font-bold leading-tight text-[3.6em]"> {/* Block Affecting Everything in the text*/}
-
         {/* First Line */}
         <span className="block">
           Where
@@ -25,8 +24,6 @@ export default function About() {
           </span>
           .
         </span>
-
-
         {/*End*/}
     </h1>
 
