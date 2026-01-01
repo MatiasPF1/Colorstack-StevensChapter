@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+
+/* Global Styles */
+html,
+body {
+  background-color: #f7f7f7a0; /* Light gray background for the entire app */
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
