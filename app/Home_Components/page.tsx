@@ -6,7 +6,7 @@ export default function ContactPage(){
 	const socials: Record<Platform,string> = { 
 		instagram: "https://www.instagram.com/colorstackstevens/?igsh=MTBzdmppNWtoZDdwdg%3D%3D#",
 		discord: "https://discord.gg/axpwmFh2k9",
-		email:"mailto:examplemail",
+		email:"mailto:colorstackstevens@gmail.com",
 		website:"https://www.colorstack.org/",
 	};
 
