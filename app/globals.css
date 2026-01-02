@@ -5,6 +5,10 @@
 html,
 body {
   background-color: #f7f7f7a0; /* Light gray background for the entire app */
+
+  
+  /* Critical for matching the "crisp" look of the original design */
+ 
 }
 
 * {
