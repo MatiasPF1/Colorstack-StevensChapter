@@ -9,7 +9,6 @@ export default function Home() {
       <Main_Idea/>
       <Mission/>
       <ContactPage/>
-      
     </main>
   );
 }

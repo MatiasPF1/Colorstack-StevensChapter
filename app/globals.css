@@ -5,7 +5,8 @@
 html,
 body {
   background-color: #f7f7f7a0; /* Light gray background for the entire app */
-
+  background-image: linear-gradient(#e5e7eb 1px, transparent 1px), linear-gradient(90deg, #e5e7eb 1px, transparent 1px); /* Grid pattern */
+  background-size: 20px 20px; /* Size of the grid squares */
   
   /* Critical for matching the "crisp" look of the original design */
  
