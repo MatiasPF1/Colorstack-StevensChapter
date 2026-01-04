@@ -1,4 +1,5 @@
 "use client"
+import { CharacterDoodle } from "./Doodles";
 
 export default function ContactPage(){
 
@@ -22,31 +23,51 @@ export default function ContactPage(){
 			<div className ="grid grid-cols-2 auto-rows-fr gap-9 mt-16! mx-30! mb-20!">
 
                 {/* Instagram */}
-				<div className = "flex flex-col items-center justify-center gap-2 bg-white rounded-2xl shadow-lg "> 
+				<div className = "relative flex flex-col items-center justify-center gap-2 bg-white rounded-2xl shadow-lg "> 
 					<h2 className = "flex text-[#c41230] items-center justify-center font-bold text-xl mt-10!">Instagram</h2>
 					<p className = "text-gray-600 text-center ">Follow us for updates, events, and <br/> community highlights</p>
 					<button onClick= {()=>(window.open(socials["instagram" as Platform], "_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! ">Follow Us</button>
+                    
+                    {/* Character Doodle Pointing to Button */}
+                    <div className="absolute bottom-4 right-65 w-16 h-22 pointer-events-none hidden md:block">
+                        <CharacterDoodle className="text-[#222629] opacity-60 -rotate-12" />
+                    </div>
 				</div>
 
  			   {/* Discord */}
-				<div className = "flex flex-col items-center justify-center gap-2 bg-white rounded-2xl shadow-lg "> 
+				<div className = "relative flex flex-col items-center justify-center gap-2 bg-white rounded-2xl shadow-lg "> 
 					<h2 className = "flex text-[#c41230] items-center justify-center font-bold text-xl mt-10!">Discord</h2>
 					<p className = "text-gray-600 text-center">Join our Discord server to chat with<br/> members and get real-time updates</p>
 					<button onClick = {()=>(window.open(socials["discord" as Platform], "_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! ">Join Discord</button>
+                    
+                    {/* Character Doodle Pointing to Button */}
+                    <div className="absolute bottom-4 right-65 w-16 h-20 pointer-events-none hidden md:block">
+                        <CharacterDoodle className="text-[#222629] opacity-60 -rotate-12" />
+                    </div>
 				</div>
 
                 {/* Email */}
-				<div className = "flex flex-col items-center justify-center gap-2 bg-white rounded-2xl shadow-lg "> 
+				<div className = "relative flex flex-col items-center justify-center gap-2 bg-white rounded-2xl shadow-lg "> 
 					<h2 className = "flex text-[#c41230] items-center justify-center font-bold text-xl mt-10!">Contact Us</h2>
 					<p className = "text-gray-600 text-center">Have questions? <br/>Reach out to us via email</p>
 					<button onClick = {()=>(window.open(socials["email" as Platform],"_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! ">Send email</button>
+                    
+                    {/* Character Doodle Pointing to Button */}
+                    <div className="absolute bottom-4 right-65 w-16 h-22 pointer-events-none hidden md:block">
+                        <CharacterDoodle className="text-[#222629] opacity-60 -rotate-12" />
+                    </div>
 				</div>
 
 	      		{/* National ColorStack */}
-				<div className = " flex flex-col items-center justify-center gap-2 bg-white rounded-2xl shadow-lg ">
+				<div className = "relative flex flex-col items-center justify-center gap-2 bg-white rounded-2xl shadow-lg ">
 					<h2 className = "flex text-[#c41230] items-center justify-center font-bold text-xl mt-10!">Join National ColorStack</h2>
 					<p className = "text-gray-600 text-center">Acess opprtunties, mentorship, and <br/>join 10,000+ members</p>
 					<button onClick = {()=>(window.open(socials["website" as Platform],"_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! ">Apply Now</button>
+                    
+                    {/* Character Doodle Pointing to Button */}
+                    <div className="absolute bottom-4 right-65 w-16 h-22 pointer-events-none hidden md:block">
+                        <CharacterDoodle className="text-[#222629] opacity-60 -rotate-12" />
+                    </div>
 				</div>
 		
 			</div>

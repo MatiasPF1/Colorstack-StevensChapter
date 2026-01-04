@@ -91,4 +91,17 @@ export const LaptopDoodle = ({ className }: { className?: string }) => (
   </svg>
 );
 
+export const CharacterDoodle = ({ className }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    {/* Head */}
+    <circle cx="50" cy="20" r="15" stroke="currentColor" strokeWidth="3" />
+    {/* Body */}
+    <path d="M50 35 L 50 70" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+    {/* Arms (Pointing Right) */}
+    <path d="M50 45 L 20 55 M 50 45 L 80 35" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+    {/* Legs */}
+    <path d="M50 70 L 30 95 M 50 70 L 70 95" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+  </svg>
+);
+
 
