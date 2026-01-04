@@ -26,7 +26,7 @@ export default function ContactPage(){
 				<div className = "relative flex flex-col items-center justify-center gap-2 bg-white rounded-2xl shadow-lg "> 
 					<h2 className = "flex text-[#c41230] items-center justify-center font-bold text-xl mt-10!">Instagram</h2>
 					<p className = "text-gray-600 text-center ">Follow us for updates, events, and <br/> community highlights</p>
-					<button onClick= {()=>(window.open(socials["instagram" as Platform], "_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! ">Follow Us</button>
+					<button onClick= {()=>(window.open(socials["instagram" as Platform], "_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! transition-all duration-200 hover:-translate-y-1 inline-block ">Follow Us</button>
                     
                     {/* Character Doodle Pointing to Button */}
                     <div className="absolute bottom-4 right-65 w-16 h-22 pointer-events-none hidden md:block">
@@ -34,11 +34,13 @@ export default function ContactPage(){
                     </div>
 				</div>
 
+
+
  			   {/* Discord */}
 				<div className = "relative flex flex-col items-center justify-center gap-2 bg-white rounded-2xl shadow-lg "> 
 					<h2 className = "flex text-[#c41230] items-center justify-center font-bold text-xl mt-10!">Discord</h2>
 					<p className = "text-gray-600 text-center">Join our Discord server to chat with<br/> members and get real-time updates</p>
-					<button onClick = {()=>(window.open(socials["discord" as Platform], "_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! ">Join Discord</button>
+					<button onClick = {()=>(window.open(socials["discord" as Platform], "_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! transition-all duration-200 hover:-translate-y-1 inline-block ">Join Discord</button>
                     
                     {/* Character Doodle Pointing to Button */}
                     <div className="absolute bottom-4 right-65 w-16 h-20 pointer-events-none hidden md:block">
@@ -46,11 +48,14 @@ export default function ContactPage(){
                     </div>
 				</div>
 
+
+
+
                 {/* Email */}
 				<div className = "relative flex flex-col items-center justify-center gap-2 bg-white rounded-2xl shadow-lg "> 
 					<h2 className = "flex text-[#c41230] items-center justify-center font-bold text-xl mt-10!">Contact Us</h2>
 					<p className = "text-gray-600 text-center">Have questions? <br/>Reach out to us via email</p>
-					<button onClick = {()=>(window.open(socials["email" as Platform],"_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! ">Send email</button>
+					<button onClick = {()=>(window.open(socials["email" as Platform],"_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! transition-all duration-200 hover:-translate-y-1 inline-block ">Send email</button>
                     
                     {/* Character Doodle Pointing to Button */}
                     <div className="absolute bottom-4 right-65 w-16 h-22 pointer-events-none hidden md:block">
@@ -58,11 +63,13 @@ export default function ContactPage(){
                     </div>
 				</div>
 
+
+
 	      		{/* National ColorStack */}
 				<div className = "relative flex flex-col items-center justify-center gap-2 bg-white rounded-2xl shadow-lg ">
 					<h2 className = "flex text-[#c41230] items-center justify-center font-bold text-xl mt-10!">Join National ColorStack</h2>
 					<p className = "text-gray-600 text-center">Acess opprtunties, mentorship, and <br/>join 10,000+ members</p>
-					<button onClick = {()=>(window.open(socials["website" as Platform],"_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! ">Apply Now</button>
+					<button onClick = {()=>(window.open(socials["website" as Platform],"_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! transition-all duration-200 hover:-translate-y-1 inline-block  ">Apply Now</button>
                     
                     {/* Character Doodle Pointing to Button */}
                     <div className="absolute bottom-4 right-65 w-16 h-22 pointer-events-none hidden md:block">
