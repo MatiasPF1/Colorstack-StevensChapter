@@ -75,7 +75,7 @@ export default function Main_Idea(){
 
 
         <div className=" -translate-y-10 w-[92%] max-w-275 mx-auto  mb-[2.5em] flex justify-center items-center flex-wrap relative">
-            <img className="max-w-210 w-full h-125 object-cover rounded-[18px] shadow-lg transition-all duration-200 hover:-translate-y-1 inline-block " src="/images/colorstack-group.jpg" alt="ColorStack Group"/>
+            <img className="max-w-210 w-full h-125 object-cover rounded-[18px] shadow-lg " src="/images/colorstack-group.jpg" alt="ColorStack Group"/>
         </div>
 
 
