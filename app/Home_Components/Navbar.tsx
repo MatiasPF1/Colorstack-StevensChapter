@@ -24,7 +24,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="/events" className=" text-[1.25em] no-underline text-[#222629] font-medium transition-all duration-200 hover:text-[#c41230] hover:-translate-y-1 inline-block">
+          <Link href="/eboard" className=" text-[1.25em] no-underline text-[#222629] font-medium transition-all duration-200 hover:text-[#c41230] hover:-translate-y-1 inline-block">
             E-Board
           </Link>
         </li>
