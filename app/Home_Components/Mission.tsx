@@ -18,7 +18,7 @@ export default function Mission(){
 					<img className = "w-70 mr-5! rounded-2xl aspect-square object-cover" src = "images/3.jpeg"
 				
 					/>
-					<img className = "w-70 mr-5! rounded-2xl aspect-square object-cover" src = "images/4.jpeg"
+					<img className = "w-70 mr-5! rounded-2xl aspect-square object-cover" src = "images/Granty.jpeg"
 				
 					/>
 

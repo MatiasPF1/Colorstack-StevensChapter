@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google"; // Import For the Fonts 
 import "./globals.css"; // Global CSS import
 import Navbar from "./Home_Components/Navbar";
-import {IonIcon} from "ionicons/react";
 //1- Font Configuration For the Text
 
 const inter = Inter({ 
