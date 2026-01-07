@@ -21,13 +21,13 @@ export default function Navbar() {
         </li>
 
          <li>
-          <Link href="/eboard" className=" text-[1.25em] no-underline text-[#222629] font-medium transition-all duration-200 hover:text-[#c41230] hover:-translate-y-1 inline-block">
+          <Link href="/E-Board_Components" className=" text-[1.25em] no-underline text-[#222629] font-medium transition-all duration-200 hover:text-[#c41230] hover:-translate-y-1 inline-block">
             E-Board
           </Link>
         </li>
 
         <li>
-          <Link href="/about" className=" text-[1.25em] no-underline text-[#222629] font-medium transition-all duration-200 hover:text-[#c41230] hover:-translate-y-1 inline-block">
+          <Link href="/Resources_Components" className=" text-[1.25em] no-underline text-[#222629] font-medium transition-all duration-200 hover:text-[#c41230] hover:-translate-y-1 inline-block">
             Resources 
           </Link>
         </li>
