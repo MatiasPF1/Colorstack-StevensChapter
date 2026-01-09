@@ -1,5 +1,14 @@
 
-export default function ResourceCard({ item, index }) {
+
+type ResourceCars = {
+  item: {
+    title: string;
+    description: string;
+  };
+  index: number;
+}
+
+export default function ResourceCard({ item, index } : ResourceCars) {
   return (
     <div
       className="

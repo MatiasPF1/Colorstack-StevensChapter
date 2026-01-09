@@ -16,6 +16,7 @@ export default function ProfileCard({
   Name,
 }:
 
+
 ProfileCardProps) {
   return (
     <div
