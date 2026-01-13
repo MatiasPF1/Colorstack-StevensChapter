@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     // Navbar Container 
-    <nav className="flex justify-center items-center gap-[40em] h-25 px-[4em] ">
+    <nav className="flex justify-center items-center gap-[35em] h-25  ">
 
       {/*Left Section: Stevens Name */}
       <Link href="/" className="text-[2.1em] font-bold tracking-[0.02em] text-[#c41230] transition-all duration-200 hover:-translate-y-1 inline-block">

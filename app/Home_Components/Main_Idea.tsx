@@ -20,7 +20,7 @@ export default function Main_Idea(){
     }, []);
 
     return(
-        <div className="flex flex-col justify-center items-center relative"> {/* Container Div to center the content vertically and horizontally */}
+        <div className="flex flex-col justify-center items-center relative "> {/* Container Div to center the content vertically and horizontally */}
         
         
         {/*1-Decorative Doodles*/}
@@ -56,7 +56,7 @@ export default function Main_Idea(){
         </div>
 
         {/*2-Main Idea Text */}
-        <p className="-translate-y-20 w-1/2 text-center text-2xl text-wrap relative">
+        <p className="-translate-y-20 w-1/2 text-center text-2xl text-wrap relative ">
             The Stevens ColorStack Chapter empowers 
             Black and Latino students in tech,     
             <br></br>
