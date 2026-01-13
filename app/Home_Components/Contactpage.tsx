@@ -29,7 +29,7 @@ export default function ContactPage(){
 					<button onClick= {()=>(window.open(socials["instagram" as Platform], "_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! transition-all duration-200 hover:-translate-y-1 inline-block ">Follow Us</button>
                     
                     {/* Character Doodle Pointing to Button */}
-                    <div className="absolute bottom-4 right-65 w-16 h-22 pointer-events-none hidden md:block">
+                    <div className="absolute bottom-4 right-47 w-16 h-22 pointer-events-none hidden md:block">
                         <CharacterDoodle className="text-[#222629] opacity-60 -rotate-12" />
                     </div>
 				</div>
@@ -43,7 +43,7 @@ export default function ContactPage(){
 					<button onClick = {()=>(window.open(socials["discord" as Platform], "_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! transition-all duration-200 hover:-translate-y-1 inline-block ">Join Discord</button>
                     
                     {/* Character Doodle Pointing to Button */}
-                    <div className="absolute bottom-4 right-65 w-16 h-20 pointer-events-none hidden md:block">
+                    <div className="absolute bottom-4 right-45 w-16 h-20 pointer-events-none hidden md:block">
                         <CharacterDoodle className="text-[#222629] opacity-60 -rotate-12" />
                     </div>
 				</div>
@@ -58,7 +58,7 @@ export default function ContactPage(){
 					<button onClick = {()=>(window.open(socials["email" as Platform],"_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! transition-all duration-200 hover:-translate-y-1 inline-block ">Send email</button>
                     
                     {/* Character Doodle Pointing to Button */}
-                    <div className="absolute bottom-4 right-65 w-16 h-22 pointer-events-none hidden md:block">
+                    <div className="absolute bottom-4 right-45 w-16 h-22 pointer-events-none hidden md:block">
                         <CharacterDoodle className="text-[#222629] opacity-60 -rotate-12" />
                     </div>
 				</div>
@@ -72,7 +72,7 @@ export default function ContactPage(){
 					<button onClick = {()=>(window.open(socials["website" as Platform],"_blank"))} className = "bg-[#c41230] rounded-3xl text-white px-7! py-3! mb-10! transition-all duration-200 hover:-translate-y-1 inline-block  ">Apply Now</button>
                     
                     {/* Character Doodle Pointing to Button */}
-                    <div className="absolute bottom-4 right-65 w-16 h-22 pointer-events-none hidden md:block">
+                    <div className="absolute bottom-4 right-45 w-16 h-22 pointer-events-none hidden md:block">
                         <CharacterDoodle className="text-[#222629] opacity-60 -rotate-12" />
                     </div>
 				</div>
