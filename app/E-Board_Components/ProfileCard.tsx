@@ -20,12 +20,14 @@ export default function ProfileCard({
 ProfileCardProps) {
   return (
     <div
-  className="flex flex-row bg-white w-full min-h-45 rounded-xl items-center justify-center gap-5 p-5 shadow-xl cursor-pointer
-    will-change-transform transition-transform duration-50 linear hover:-translate-y-1 ">
+   className="flex flex-row bg-white w-full min-h-[160px] rounded-xl 
+  items-center justify-center gap-4 p-4 shadow-xl cursor-pointer
+  will-change-transform transition-transform duration-100 ease-out hover:-translate-y-2"
+>
   <div className="relative w-fit">
     <img
       src={image}
-      className="rounded-full aspect-square w-36 object-cover border-3 border-red-500"
+      className="rounded-full aspect-square w-32 object-cover border-3 border-red-500"
     />
 
     <div className="absolute top-3 right-0 z-20 bg-red-600 w-7 h-7 rounded-lg flex items-center justify-center transition-transform duration-50 linear hover:scale-110">
