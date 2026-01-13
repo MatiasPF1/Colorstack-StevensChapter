@@ -73,10 +73,10 @@ export default function Eboard(){
 	];
 	return(
 	<>
-		<h2 className= "flex justify-center font-bold text-4xl mb-10! translate-y-5">Our Team - 2025/2026 E-Board</h2>
+		<h2 className= "flex justify-center font-bold text-3xl mb-9! mt-7">Our Team - 2025/2026 E-Board</h2>
 		
-		<div className = "flex justify-center translate-y-4 ">
-			<div className = "grid grid-cols-3 gap-10 w-10/12 ">
+		<div className = "flex justify-center px-7 pb-10">
+			<div className = "grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1300px] w-full text-[0.90rem]">
 				{people.map((person, index) => (
 					<ProfileCard
 						key = {index}

@@ -20,18 +20,18 @@ export default function Main_Idea(){
     }, []);
 
     return(
-        <div className="flex flex-col justify-center items-center relative "> {/* Container Div to center the content vertically and horizontally */}
+        <div className="flex flex-col justify-center items-center relative pb-20"> {/* Container Div to center the content vertically and horizontally */}
         
         
         {/*1-Decorative Doodles*/}
                                             {/* Laptop (Top Right) */}
-        <div className="absolute -top-102 right-[10%] hidden md:block" style={{ transform: `translate(${mousePos.x * 0.5}px, ${mousePos.y * 0.5}px)` }}>
-            <LaptopDoodle className="w-32 h-32 text-[#222629] opacity-40 -rotate-12" />
+        <div className="absolute -top-87 right-[10%] hidden md:block" style={{ transform: `translate(${mousePos.x * 0.5}px, ${mousePos.y * 0.5}px)` }}>
+            <LaptopDoodle className="w-32 h-20 text-[#222629] opacity-40 -rotate-12" />
         </div>
 
                                             {/* Decorative Star ( Middle Right Top) */}
-        <div className="absolute top-0 right-[20%] hidden md:block" style={{ transform: `translate(${mousePos.x * -1.5}px, ${mousePos.y * -1.5}px)` }}>
-            <StarDoodle className="w-12 h-12 text-[#c41230] opacity-60 rotate-12" />
+        <div className="absolute top-0 right-[18%] hidden md:block" style={{ transform: `translate(${mousePos.x * -1.5}px, ${mousePos.y * -1.5}px)` }}>
+            <StarDoodle className="w-11 h-11 text-[#c41230] opacity-55 rotate-12" />
         </div>
 
         
@@ -46,8 +46,8 @@ export default function Main_Idea(){
         </div>
 
                                             {/* Dino (Middle Left Bottom) */}
-        <div className="absolute bottom-10 left-[15%] hidden md:block" style={{ transform: `translate(${mousePos.x * -1.2}px, ${mousePos.y * -1.2}px)` }}>
-            <DinoDoodle className="w-24 h-24 text-[#222629] opacity-60" />
+        <div className="absolute bottom-20 left-[15%] hidden md:block" style={{ transform: `translate(${mousePos.x * -1.2}px, ${mousePos.y * -1.2}px)` }}>
+            <DinoDoodle className="w-16 h-16 text-[#222629] opacity-60" />
         </div>
 
                                             {/* Middle (Middle Right Bottom) */}
@@ -56,14 +56,14 @@ export default function Main_Idea(){
         </div>
 
         {/*2-Main Idea Text */}
-        <p className="-translate-y-20 w-1/2 text-center text-2xl text-wrap relative ">
+        <p className="-translate-y-19 w-1/2 text-center text-[1.24em] text-wrap relative  ">
             The Stevens ColorStack Chapter empowers 
             Black and Latino students in tech,     
             <br></br>
             fostering belonging, professional growth, and success together.
         </p>
 
-        <p className="-translate-y-20 w-3/4 text-center text-2xl text-balance relative z-10">
+        <p className="-translate-y-19 w-3/4 text-center text-[1.24em] text-balance relative z-10 ">
             <br></br>
             <span className="relative inline-block">
                 <strong className="text-[#c41230]">Everyone is welcome</strong>
@@ -74,8 +74,8 @@ export default function Main_Idea(){
         </p>
 
 
-        <div className=" -translate-y-10 w-[92%] max-w-275 mx-auto  mb-[2.5em] flex justify-center items-center flex-wrap relative">
-            <img className="max-w-210 w-full h-125 object-cover rounded-[18px] shadow-lg " src="/images/colorstack-group.jpg" alt="ColorStack Group"/>
+        <div className=" -translate-y-10 w-[92%] max-w-240 mx-auto  mb-[2.5em] flex justify-center items-center flex-wrap relative">
+            <img className="max-w-170 w-full h-100 object-cover rounded-[18px] shadow-lg " src="/images/colorstack-group.jpg" alt="ColorStack Group"/>
         </div>
 
 

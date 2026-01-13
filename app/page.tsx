@@ -7,8 +7,10 @@ import Mission from "./Home_Components/Mission";
 export default function Home() {
   return (
     <main className="">
+    <div className="-translate-y-3">
       <About/>
       <Main_Idea/>
+    </div>
       <Mission/>
       <ContactPage/>
     </main>
