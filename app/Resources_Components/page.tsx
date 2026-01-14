@@ -11,7 +11,7 @@ export default function Resources() {
     <div className="flex flex-col items-center gap-10 translate-y-9">
       <h1 className="font-bold text-[2.3em] translate-y-5 ">Resources</h1>
 
-      <p className="text-[18px] text-center -translate-y-6">
+      <p className="text-[18px] text-center -translate-y-4">
         Resources created by our team or from external sources<br/> that we believe can benefit all in our community
       </p>
 

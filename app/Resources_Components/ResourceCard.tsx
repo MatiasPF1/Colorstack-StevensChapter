@@ -4,6 +4,7 @@ type ResourceCardProps = {
     description: string;
     link: string;
     image: string;
+    Recommendation?: string;
   };
   index: number;
 };
@@ -23,54 +24,59 @@ export default function ResourceCard({ item, index }: ResourceCardProps) {
         animate-fall-in
         group
         flex flex-col
-        rounded-2xl
+        rounded-3xl
         overflow-hidden
         bg-white
         border border-neutral-200
-        shadow-[0_8px_30px_rgba(0,0,0,0.05)]
+        shadow-lg
         transition-all duration-300
         hover:-translate-y-1
-        hover:shadow-[0_12px_40px_rgba(0,0,0,0.08)]
+        hover:shadow-2xl
+        w-full
+        translate-y-8
+
       "
     >
       {/* Image */}
-      <div className="relative h-44 w-full overflow-hidden">
+      <div className="relative h-56 w-full overflow-hidden bg-neutral-100">
         <img
           src={item.image}
           alt={item.title}
           className="
             h-full w-full object-cover
             transition-transform duration-500
-            group-hover:scale-105
+            group-hover:scale-110
           "
         />
-        <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent group-hover:from-black/20 transition-all duration-300" />
       </div>
 
       {/* Content */}
-      <div className="flex flex-col justify-between flex-1 p-5">
-        <div>
-          <h2 className="text-[17px] font-semibold text-neutral-900 leading-snug">
+      <div className="flex flex-col flex-1 p-6">
+        <div className="space-y-2 text-center">
+          <h2 className="text-xl font-bold text-neutral-900 leading-snug">
             {item.title}
           </h2>
-          <p className="mt-2 text-sm text-neutral-600 leading-relaxed">
+          <p className="text-sm text-neutral-600 leading-relaxed">
             {item.description}
           </p>
         </div>
 
-        {/* CTA */}
-        <div className="mt-5 flex items-center justify-between">
-          <span className="text-sm font-medium text-red-500">
-            View resource
-          </span>
-          <span className="
-            text-red-500
-            transition-transform duration-300
-            group-hover:translate-x-1
-          ">
-            →
-          </span>
-        </div>
+        {/* Recommendation */}
+        {item.Recommendation && (
+          <div className="mt-auto pt-4">
+            <div className="rounded-2xl bg-neutral-50 border border-neutral-200 px-4 py-3">
+              <div className="flex items-start gap-3">
+                <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-white border border-neutral-200 text-amber-600">
+                  💡
+                </span>
+                <p className="text-sm text-gray-500 line-clamp-3">
+                  {item.Recommendation}
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </a>
   );
