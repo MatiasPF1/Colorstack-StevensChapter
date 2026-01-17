@@ -20,7 +20,7 @@ export default function ContactPage(){
 			</h1>
 
 			{/* Contact Options Grid and its options: */}
-			<div className ="grid grid-cols-2 auto-rows-fr gap-7 mt-16! mx-22! mb-16!">
+			<div className ="grid grid-cols-1 md:grid-cols-2 auto-rows-fr gap-7 mt-16! mx-4 md:mx-22! mb-16!">
 
                 {/* Instagram */}
 				<div className = "relative flex flex-col items-center justify-center gap-2 bg-white rounded-2xl shadow-lg "> 
