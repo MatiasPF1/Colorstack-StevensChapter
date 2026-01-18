@@ -16,10 +16,6 @@ export default function ResourceCard({ item, index }: ResourceCardProps) {
       href={item.link}
       target="_blank"
       rel="noopener noreferrer"
-      style={{
-        animationDelay: `${index * 80}ms`,
-        animationFillMode: "forwards",
-      }}
       className="
         animate-fall-in
         group
@@ -34,7 +30,6 @@ export default function ResourceCard({ item, index }: ResourceCardProps) {
         hover:shadow-2xl
         w-full
         translate-y-8
-
       "
     >
       {/* Image */}
@@ -48,7 +43,7 @@ export default function ResourceCard({ item, index }: ResourceCardProps) {
             group-hover:scale-110
           "
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent group-hover:from-black/20 transition-all duration-300" />
+        <div className="absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-transparent group-hover:from-black/20 transition-all duration-300" />
       </div>
 
       {/* Content */}
