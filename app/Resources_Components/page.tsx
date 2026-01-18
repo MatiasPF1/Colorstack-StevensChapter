@@ -1,6 +1,5 @@
 "use client";
 import Tab from "./Tab";
-import LCN from "./LCN";
 import AppFell from "./AppFell";
 import CSW from "./CSW";
 import {useState} from "react";
@@ -15,16 +14,14 @@ export default function Resources() {
         Resources created by our team or from external sources<br className="hidden md:block"/> that we believe can benefit all in our community
       </p>
 
-      <div className="flex flex-col items-center w-full max-w-[1000px] px-4 md:px-6 -translate-y-9" >
+      <div className="flex flex-col items-center w-full max-w-250 px-4 md:px-6 -translate-y-9" >
       	<nav className="flex flex-col md:flex-row justify-center gap-3 md:gap-6 mb-6 w-full md:w-auto">
-        	<Tab label="LeetCodeNights" value="LeetCodeNights" activeTab={activeTab} setActiveTab={setActiveTab} />
         	<Tab label="Application/Fellowships" value="Applications/Fellowships" activeTab={activeTab} setActiveTab={setActiveTab} />
-        	<Tab label="Colorstack-Works" value="Colorstack-Works" activeTab={activeTab} setActiveTab={setActiveTab} />
+        	<Tab label="LeetCode Slides" value="LeetCode-Slides" activeTab={activeTab} setActiveTab={setActiveTab} />
       	</nav>
       	<div className="w-full">
-        	{activeTab === "LeetCodeNights" && <LCN />}
         	{activeTab === "Applications/Fellowships" && <AppFell />}
-        	{activeTab === "Colorstack-Works" && <CSW />}
+        	{activeTab === "LeetCode-Slides" && <CSW />}
       	</div>
       </div>
     </div>
