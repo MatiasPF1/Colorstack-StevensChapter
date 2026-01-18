@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className="relative flex justify-center md:justify-between items-center gap-4 h-20 px-4 md:px-8 max-w-[1400px] mx-auto w-full">
 
       {/*Left Section: Stevens Name */}
-      <Link href="/" className="text-[1.40em] md:translate-x-50 md:text-[1.70em] font-bold tracking-[0.02em] text-[#c41230] transition-all duration-200 hover:-translate-y-1 inline-block">
+      <Link href="/" className="text-[1.30em] md:translate-x-50 md:text-[1.70em] font-bold tracking-[0.02em] text-[#c41230] transition-all duration-200 hover:-translate-y-1 inline-block">
         ColorStack @ Stevens
       </Link>
 

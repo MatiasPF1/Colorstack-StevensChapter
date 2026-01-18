@@ -56,14 +56,14 @@ export default function Main_Idea(){
         </div>
 
         {/*2-Main Idea Text */}
-        <p className="-translate-y-19 w-1/2 text-center text-[1.24em] text-wrap relative  ">
+        <p className="-translate-y-19 w-1/2 text-center text-[1.10em] text-wrap relative  md:text-[1.24em] ">
             The Stevens ColorStack Chapter empowers 
             Black and Latino students in tech,     
             <br></br>
             fostering belonging, professional growth, and success together.
         </p>
 
-        <p className="-translate-y-19 w-3/4 text-center text-[1.24em] text-balance relative z-10 ">
+        <p className="-translate-y-19 w-3/4 text-center text-[1.10em] md:text-[1.24em] text-balance relative z-10 ">
             <br></br>
             <span className="relative inline-block">
                 <strong className="text-[#c41230]">Everyone is welcome</strong>

@@ -2,7 +2,7 @@ export default function About() {
   return (
     /* Main Hook*/
     <div className="flex flex-col justify-center items-center h-80 md:h-100 px-4"> {/* Container Div to center the content vertically and horizontally */}
-      <h1 className="text-center font-bold leading-tight text-[2.00em] text-[2.40em] md:text-[2.90em]"> {/* Block Affecting Everything in the text*/}
+      <h1 className="text-center font-bold leading-tight text-[2em] md:text-[2.90em]"> {/* Block Affecting Everything in the text*/}
         {/* First Line */}
         <span className="block">
           Where
