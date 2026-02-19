@@ -63,15 +63,6 @@ export default function Main_Idea(){
             fostering belonging, professional growth, and success together.
         </p>
 
-        <p className="-translate-y-19 w-3/4 text-center text-[1.10em] md:text-[1.24em] text-balance relative z-10 ">
-            <br></br>
-            <span className="relative inline-block">
-                <strong className="text-[#c41230]">Everyone is welcome</strong>
-                <UnderlineDoodle className="absolute -bottom-4 left-0 w-full h-8 text-[#c41230] opacity-80" />
-            </span>. You don't have to be Hispanic or Black to support our mission. 
-            <br></br>
-            We want everyone, regardless of race or gender, to be part of our community.
-        </p>
 
 
         <div className=" -translate-y-10 w-[92%] max-w-240 mx-auto  mb-[2.5em] flex justify-center items-center flex-wrap relative">
